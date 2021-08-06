@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +143,128 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* CODE ADDED BY CHRISTIAN KIM */
+
+/*Home Page*/
+/*Header Styles*/
+.header-text {
+    width: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 2rem 0;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color:black;
+}
+
+.top-content {
+    padding-top: 1rem;
+}
+
+/*Box Colors*/
+ .box1 {
+    background-color: teal;
+ }
+
+ .box2 {
+     background-color: gold;
+ }
+
+ .box3 {
+     background-color: cadetblue;
+ }
+
+ .box4 {
+     background-color: coral;
+ }
+
+ .box5 {
+     background-color: crimson;
+ }
+
+ .box6 {
+     background-color: forestgreen;
+ }
+
+ .box7 {
+     background-color: darkorchid;
+ }
+
+ .box8 {
+     background-color: hotpink;
+ }
+
+ .box9 {
+     background-color: indigo;
+ }
+
+ .box10 {
+     background-color: dodgerblue;
+ }
+
+ /*About Page*/
+ .about-page {
+    width: 800px;
+    margin: 0 auto;
+ }
+
+ /* Introduction Styles*/
+
+ .introduction {
+     padding-bottom: 1rem;
+     border-bottom: 1px dashed black;
+     padding: 1rem;
+ }
+
+ /* Middle Section Styles */
+ .thumbnails {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     width: 48%;
+     border-bottom: 1px dashed black;
+     height: 27rem;
+     margin-top: 2rem;
+
+ }
+
+ .thumbnails img {
+     width: 100%;
+ }
+
+ .middle-section {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    margin: 0 auto;
+ }
+
+ .middle-section h2 {
+     margin: 0;
+ }
+ .learn-button {
+     text-decoration: none;
+     color: black;
+     border: .2rem solid black;
+     border-radius: .5rem;
+     padding: .5rem .75rem;
+     width: 40%;
+     text-align: center;
+ }
+
+ /* Bottom Section Styles */
+ .bottom-section {
+     width: 96%;
+     margin: 2rem auto;
+ }
